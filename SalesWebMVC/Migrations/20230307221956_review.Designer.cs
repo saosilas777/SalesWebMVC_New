@@ -12,8 +12,8 @@ using SalesWebMVC.Data;
 namespace SalesWebMVC.Migrations
 {
     [DbContext(typeof(SalesWebMVCContext))]
-    [Migration("20230307213616_Other-Entities")]
-    partial class OtherEntities
+    [Migration("20230307221956_review")]
+    partial class review
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
